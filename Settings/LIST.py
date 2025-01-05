@@ -7,10 +7,12 @@
 
 # daily
 DAILY_APPS = [
-
+    r"start msteams://",
+    r"start whatsapp://",
 ]
 DAILY_SITES = [
-
+    r"https://vtopcc.vit.ac.in/vtop/content",
+    r"https://mail.google.com/mail/u/5/#inbox",
 ]
 
 # weekly
