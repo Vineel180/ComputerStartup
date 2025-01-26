@@ -1,17 +1,17 @@
 r"""NOTE:
-    r"",
     [ "" , r"" ],
+    [ "" , r"" , "" , ""],
 """
 
 # FOREVER
 FOREVER_APPS__filePath = [
-    r"C:\Program Files (x86)\TickTick\TickTick.exe",
+    [ "TickTick" , r"C:\Program Files (x86)\TickTick\TickTick.exe" , "0.1" , "3" ],
 ]
 
 # DAILY
 DAILY_APPS__terminalCommand = [
-    r"start msteams://",
-    r"start whatsapp://",
+    [ "Microsoft Teams" , r"start msteams://" , "0.1" , "3" ],
+    [ "Whatsapp" , r"start whatsapp://" , "0.1" , "3" ],
 ]
 DAILY_SITES = [
     r"https://mail.google.com/mail/u/3/#inbox",
@@ -19,7 +19,7 @@ DAILY_SITES = [
 
 # WEEKLY
 WEEKLY_APPS_terminalCommand = [
-    [ "6" , r'Start-Process "obsidian://open?vault=Fairytale"' ],
+    [ "6" , r'Start-Process "obsidian://open?vault=Fairytale"' , "0.1" , "3" ],
 ]
 WEEKLY_FOLDERS = [
     [ "6" , r"C:\Users\vinee\Pictures" ],
